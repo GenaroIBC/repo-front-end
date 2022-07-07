@@ -1,6 +1,9 @@
 .svg-icon {
   width: 5rem;
 }
+a .svg-icon {
+  width: 2.5rem;
+}
 
 .hero-title {
   font-size: 6rem;

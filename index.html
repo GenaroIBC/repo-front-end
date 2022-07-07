@@ -11,6 +11,7 @@
         <title>Portfolio Front-End</title>
     </head>
     <body class="bg-dark">
+        <!-- HEADER -->
         <header class="container-fluid bg-primary">
             <div class="row">
                 <div class="col-2 bg-success">
@@ -25,17 +26,20 @@
                 >
                     <a class="ms-5 fs-5 text-light" href="#">Home</a>
                     <a class="ms-5 fs-5 text-light" href="#">About</a>
-                    <a class="ms-5 fs-5 text-light" href="#">Projects</a>
-                    <a class="ms-5 fs-5 text-light" href="#">Contact</a>
+                    <a class="ms-5 fs-5 text-light" href="#projects"
+                        >Projects</a
+                    >
+                    <a class="ms-5 fs-5 text-light" href="#contact">Contact</a>
                 </nav>
             </div>
         </header>
+        <!-- MAIN -->
         <main class="container-fluid bg-secondary">
-            <!-- HERO -->
+            <!-- HOME -->
             <section
                 class="container-fluid row bg-primary d-flex align-items-center justify-content-between"
             >
-                <!-- HERO > TEXT -->
+                <!-- HOME > TEXT -->
                 <div class="col-8 bg-success p-3">
                     <div class="row bg-danger">
                         <h1 class="hero-title">Hi! How are you?</h1>
@@ -48,14 +52,15 @@
                         earum quibusdam.
                     </div>
                 </div>
-                <!-- HERO > IMAGE -->
+                <!-- HOME > IMAGE -->
                 <div class="col-4 bg-success">
                     <img class="" src="assets/svg/github-brands.svg" alt="me" />
                 </div>
             </section>
             <br />
+            <!-- PROJECTS -->
             <section class="container-fluid bg-primary">
-                <h2 class="text-center">Projects</h2>
+                <h2 id="projects" class="text-center fs-1">Projects</h2>
                 <div
                     class="d-flex text-center justify-content-between bg-success w-75 m-auto"
                 >
@@ -106,6 +111,115 @@
                     </article>
                 </div>
             </section>
+            <br />
+
+            <section class="container-fluid bg-primary">
+                <div
+                    class="d-flex text-center justify-content-between bg-success w-75 m-auto"
+                >
+                    <article class="bg-danger w-25">
+                        <img
+                            class="svg-icon"
+                            src="assets/svg/user-solid.svg"
+                            alt="project"
+                        />
+                        <h3>Tic Tac Toe</h3>
+                        <p>
+                            Lorem ipsum dolor sit amet consectetur adipisicing
+                            elit. Vero aspernatur, magnam itaque nisi
+                            repellendus aut error eius dolore hic, doloribus
+                            odio nesciunt asperiores. Ex adipisci dolorem
+                            voluptatibus commodi sit qui.
+                        </p>
+                    </article>
+                    <article class="bg-danger w-25">
+                        <img
+                            class="svg-icon"
+                            src="assets/svg/user-solid.svg"
+                            alt="project"
+                        />
+                        <h3>Tic Tac Toe</h3>
+                        <p>
+                            Lorem ipsum dolor sit amet consectetur adipisicing
+                            elit. Vero aspernatur, magnam itaque nisi
+                            repellendus aut error eius dolore hic, doloribus
+                            odio nesciunt asperiores. Ex adipisci dolorem
+                            voluptatibus commodi sit qui.
+                        </p>
+                    </article>
+                    <article class="bg-danger w-25">
+                        <img
+                            class="svg-icon"
+                            src="assets/svg/user-solid.svg"
+                            alt="project"
+                        />
+                        <h3>Tic Tac Toe</h3>
+                        <p>
+                            Lorem ipsum dolor sit amet consectetur adipisicing
+                            elit. Vero aspernatur, magnam itaque nisi
+                            repellendus aut error eius dolore hic, doloribus
+                            odio nesciunt asperiores. Ex adipisci dolorem
+                            voluptatibus commodi sit qui.
+                        </p>
+                    </article>
+                </div>
+            </section>
+            <br />
+            <!-- CONTACT -->
+            <section class="container-fluid bg-primary">
+                <h2 id="contact" class="text-center fs-1">Contact</h2>
+                <form class="w-75 m-auto bg-danger">
+                    <label for="name">Name</label>
+                    <input name="name" id="name" type="text" />
+
+                    <label for="e-mail">E-mail</label>
+                    <input name="e-mail" id="e-mail" type="email" />
+
+                    <textarea
+                        name="comments"
+                        id="comments"
+                        cols="30"
+                        rows="10"
+                    ></textarea>
+                    <button class="btn btn-primary">Send</button>
+                </form>
+            </section>
         </main>
+        <br />
+        <!-- FOOTER -->
+        <footer class="container-fluid bg-primary">
+            <div class="container bg-danger text-center text-white">
+                <aside class="bg-secondary">
+                    <p>E-mail: <span>correo@example.com</span></p>
+                    <p>Phone: <span>+54 3534 343421</span></p>
+                </aside>
+                <h4>You can also find me at:</h4>
+                <nav class="bg-success">
+                    <a target="blank" href="https://instagram.com/genaro_ibc">
+                        <img
+                            class="svg-icon"
+                            src="assets/svg/instagram-brands.svg"
+                        />
+                    </a>
+
+                    <a target="blank" href="https://github.com/GenaroIBC">
+                        <img
+                            class="svg-icon"
+                            src="assets/svg/github-brands.svg"
+                        />
+                    </a>
+
+                    <!-- <a target="blank" href="https://linkedin.com/GenaroIBC">
+                            <img
+                                class="svg-icon"
+                                src="assets/svg/linkedin-brands.svg"
+                            />
+                        </a> -->
+                </nav>
+                <div class="container bg-secondary">
+                    <p>Sitio creado con fines educativos</p>
+                </div>
+            </div>
+        </footer>
     </body>
 </html>
