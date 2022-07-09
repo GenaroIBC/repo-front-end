@@ -1,10 +1,39 @@
 .svg-icon {
-  width: 5rem;
+    max-width: 5rem;
 }
 a .svg-icon {
-  width: 2.5rem;
+    width: 2.5rem;
 }
 
 .hero-title {
-  font-size: 6rem;
+    font-size: 5rem;
+}
+
+#test {
+    flex-wrap: wrap;
+}
+
+textarea {
+    resize: none !important;
+}
+
+.foot-wave {
+    /* position: absolute;
+    top: -100%;
+    opacity: 50%; */
+}
+
+.wave-footer {
+    position: relative;
+}
+
+@media (max-width: 768px) {
+    .hero-title {
+        font-size: 4rem;
+    }
+}
+@media (min-width: 768px) {
+    .contact-form {
+        max-width: 500px !important;
+    }
 }
